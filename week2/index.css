@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #23272a;
+  }
+  
+  canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .content {
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 50%;
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 90px;
+    font-family: Arial, sans-serif; 
+    color: #fff;
+  }
+  
+  .news {
+    
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 50%;
+    text-align: left;
+    transform: translateX(100%);
+  }
+  
+  .news-item {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin-bottom: 113px;
+  }
